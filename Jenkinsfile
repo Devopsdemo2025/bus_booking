@@ -47,9 +47,9 @@ pipeline {
             }
         }
 
-        stage('Wait for 2 minutes') {
+        stage('Wait for 1 minutes') {
             steps {
-                sleep(time: 2, unit: 'MINUTES')
+                sleep(time: 1, unit: 'MINUTES')
             }
         }
 
